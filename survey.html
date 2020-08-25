@@ -1,0 +1,193 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <link rel="stylesheet" type="text/css" href="survey.css">
+    <title>survey-form</title> 
+  </head> 
+  <body> 
+    <h1>FAVOURITE THINGS QUESTIONNAIRE</h1> 
+    <script src="calculator.js">
+	</script>
+    <div id="form-outer">
+        <p id="description"> The purpose of this survey form is to help students begin with
+            self reflection & connect to post-secondary goals.
+        </p>
+        <form is="survey-form" method="GET" action="ww.google.com">
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="name-label" for="name">*Name: </label>
+                </div>
+                <div class="rightTab"><input autofocus type="text" name="name" id="name"
+                class="input-field" placeholder="Enter your name" required>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="email-label" for="email">*Email: </label>
+                </div>
+                <div class="rightTab"><input autofocus type="text" name="email" id="email"
+                class="input-field" placeholder="Enter your email" required>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="age-label" for="age">*Age:</label>
+                </div>
+                <div class="rightTab"><input autofocus type="number" name="age" id="number" min="1" max="150"
+                class="input-field" placeholder="Age" required>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                  <label for="currentPos">Your Last Class?</label>
+                </div>
+                <div class="rightTab">
+                  <select id="dropdown" name="currentPos" class="dropdown">
+                    <option disabled value>Select an option</option>
+                    <option  value="Junior Secondary">Junior Secondary</option>
+                    <option value="High School">High School</option>
+                    <option value="Intermediate">Intermediate</option>
+                 <option value="preferNo">Prefer not to say</option>
+                 <option value="other">Other</option>
+                </select>
+                </div>
+            </div>
+            
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="favtv-label" for="fav-tv-show">Your Favourite TV show:</label>
+                </div>
+                <div class="rightTab"><input autofocus type="text" name="fav-tv-show" id="favtv" 
+                class="input-field" placeholder="fav-tv-show" required>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="favplace-label" for="fav-place">Your Favourite place to go:</label>
+                </div>
+                <div class="rightTab"><input autofocus type="text" name="fav-place" id="favplace" 
+                class="input-field" placeholder="fav-place" required>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="favthing-label" for="fav-thing">Your Favourite thing to do in free time:</label>
+                </div>
+                <div class="rightTab"><input autofocus type="text" name="fav-thing" id="favthing" 
+                class="input-field" placeholder="fav-thing" required>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="schoollove-label" for="school-love">Thing i like most about SCHOOL:</label>
+                </div>
+                <div class="rightTab"><input autofocus type="text" name="school-love" id="schoollove" 
+                class="input-field" placeholder="school-love" required>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="schoolhate-label" for="school-hate">Thing i hate about SCHOOL:</label>
+                </div>
+                <div class="rightTab"><input autofocus type="text" name="school-hate" id="schoolhate" 
+                class="input-field" placeholder="school-hate" required>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="favperslabel" for="fav-pers">Favourite Athlete/Sports personality:</label>
+                </div>
+                <div class="rightTab"><input autofocus type="text" name="fav-pers" id="favpers" 
+                class="input-field" placeholder="fav-pers" required>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="favfood-label" for="fav-food">Fav FOOD:</label>
+                </div>
+                <div class="rightTab"><input autofocus type="text" name="fav-food" id="favfood" 
+                class="input-field" placeholder="fav-food" required>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="like-label" for="like">I Like people who:</label>
+                </div>
+                <div class="rightTab"><input autofocus type="text" name="like" id="like" 
+                class="input-field" placeholder="likes-in-people" required>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="favbook-label" for="fav-book">Fav book:</label>
+                </div>
+                <div class="rightTab"><input autofocus type="text" name="fav-book" id="favbook" 
+                class="input-field" placeholder="fav-book" required>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="dreamjob-label" for="dream-job">JOB you would like to have when you grow up:</label>
+                </div>
+                <div class="rightTab"><input autofocus type="text" name="dream-job" id="dream-job" 
+                class="input-field" placeholder="dream-job" required>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="favgame-label" for="fav-game">Favourite Game:</label>
+                </div>
+                <div class="rightTab"><input autofocus type="text" name="fav-game" id="favgame" 
+                class="input-field" placeholder="fav-game" required>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="Gwish-label" for="G-wish">Greatest wish:</label>
+                </div>
+                <div class="rightTab"><input autofocus type="text" name="G-wish" id="gwish" 
+                class="input-field" placeholder="Greatest-wish" required>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="dreamplace-label" for="dream-place">If u could go anywhere,you'd go to:</label>
+                </div>
+                <div class="rightTab"><input autofocus type="text" name="dream-place" id="dreamplace" 
+                class="input-field" placeholder="dream-place" required>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="favtime-label" for="dream-place">Your favourite time of the day:</label>
+                </div>
+                <div class="rightTab"><input autofocus type="text" name="fav-time" id="favtime" 
+                class="input-field" placeholder="fav-time" required>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                  <label for="userRating">* How likely is that you would recommend this survey-form to a friend?</label>
+                </div>
+                <div class="rightTab">
+                  <ul style="list-style: font: 1em sans-serif;">
+                    <li class="radio"><label>Definitely<input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label></li>
+                    <li class="radio"><label>Maybe<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label></li>
+                    <li class="radio"><label>Not sure<input name="radio-buttons" value="3"  type="radio" class="userRatings" ></label></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                  <label for="comments">Any Comments or Suggestions?</label>
+                </div>
+                <div class="rightTab">
+                  <textarea id="comments" class="input-field" style="height:70px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+                </div>
+              </div>
+              <button id="submit" type="submit">Submit</button>
+            </form>
+          </div>
+    <p>This website is created by VISHAL CHAURASIA.</p> 
+  </body> 
+</html>
